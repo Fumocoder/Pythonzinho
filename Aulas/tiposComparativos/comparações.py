@@ -1,0 +1,3 @@
+### Tipos usadas para comparação
+
+#
