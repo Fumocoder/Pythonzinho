@@ -23,3 +23,13 @@ elif numero == 5:
     print("Agora o elif foi executado :D") # o Elif vai ser executado, pois agora temos a condição verdadeira
 else:
     print("É isso ai man")
+
+
+# Melhorando condicionais(outras maneiras de fazer)
+
+#If de uma linha
+
+produto = 10.50
+
+preco = "Alto" if  produto >= 50 else "baixo" #São uma boa para enxugar o codigo e fazer pequenos testes diretos
+print(preco)
