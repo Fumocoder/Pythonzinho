@@ -1,0 +1,1 @@
+#Modulo para vermos algumas funções de fatiamento
