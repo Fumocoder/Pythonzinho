@@ -11,9 +11,11 @@ cursor.execute("CREATE TABLE  IF NOT EXISTS jogadores(id INTEGER NOT NULL PRIMAR
 #id INTEGER NOT NULL PRIMAR KEY AUTOINCREMENT = Basicamente diz que nosso id é um INTEIRO(INTEGER) o PRIMARY KEY é o identificardor, só pode existir 1 por tabela e nao pode repetir
     # NOT NULL = não pode ser vazio
     #AUTOINCREMENT = a cada vez que um valor for adicionado, o id vai aumentar em 1 automaticamente seria algo como id+=1
+    # TEXT = dado do tipo texto
+    #UNIQUE (servidor, nome) = aqui basicamente dizemos que nao pode ter mais que um nome no mesmo servidor.
     
 
-ligacao.commit()
+ligacao.commit() #Enviamos ao banco de dado, somente após o commit() os dados serão enviados
 #fetchone = Vai sempre retornar o proximo item da tabela
 
 
