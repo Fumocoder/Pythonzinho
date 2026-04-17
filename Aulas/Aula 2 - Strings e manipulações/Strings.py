@@ -1,7 +1,7 @@
 #Aqui vamos falar de alguns dos métodos principais de uma string e algumas curiosidades!:
 nome = input("Digite seu nome: ")
 
-#1° strings são IMUTÁVEIS(Não podemos alterar os valores contidos em uma string)
+#1° strings são IMUTÁVEIS(Não podemos alterar os valores contidos em uma string) mas dependendo de onde a string estiver armazenada, podemos alterar o dado completo
 ##nome[0] = "J"
 ##print(nome)
 
@@ -34,3 +34,6 @@ print(len(nome_alterado)) #podemos contar o tamanho da string com len() veremos 
 
 print(nome.count("Ed")) #conta quantas vezes uma palavra ou letra acontece, voce pode limitar se so quer procurar no começo da string, no fim, no meio, etc... e ele retorna o tanto de vezes que isso aconteceu.
 
+# podemos usar \ como uma tecla de escape, para digitar simbolos ou letras reservados na string
+
+print("Edson\"") #Agora podemos usar aspas dentro do nosso texto normalmente :D

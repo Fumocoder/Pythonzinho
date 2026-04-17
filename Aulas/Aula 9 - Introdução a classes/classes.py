@@ -22,3 +22,8 @@ class Celular:
         self.botao_ligar = botao_ligar #O botão de ligar
         self.botao_volume = botao_volume #O botão de volume
         #Nesta parte, criamos o "modelo" de como nosso celular deve seguir para ser um "celular" ou seja, existir.
+
+        def tirarFoto():
+            return f"Foto tirada pela camera de {self.camera}"
+        
+iphone = Celular(16, "Azul", "100MP", "12GB",  )
